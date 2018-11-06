@@ -17,8 +17,4 @@ RUN set -xe && \
             ${PWD}/v${PHALCON_VERSION}.tar.gz \
             ${PWD}/cphalcon-${PHALCON_VERSION}
 
-COPY docker-phalcon-* /usr/local/bin/
-
 USER circleci
-
-CMD ["/bin/sh"]
