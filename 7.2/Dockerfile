@@ -1,4 +1,4 @@
-FROM circleci/php:7.1
+FROM circleci/php:7.2
 
 LABEL maintainer="naoyayamamoto <github.com/naoyayamamoto>"
 
