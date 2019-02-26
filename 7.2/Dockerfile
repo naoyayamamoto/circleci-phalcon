@@ -2,7 +2,7 @@ FROM circleci/php:7.2
 
 LABEL maintainer="naoyayamamoto <github.com/naoyayamamoto>"
 
-ARG PHALCON_VERSION=3.4.2
+ARG PHALCON_VERSION=3.4.3
 ARG PHALCON_EXT_PATH=php7/64bits
 
 USER root
