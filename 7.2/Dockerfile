@@ -19,6 +19,7 @@ RUN set -xe && \
 
 # Install php extensions
 RUN set -xe && \
-        docker-php-ext-install pdo_mysql
+        apt-get update -y && apt-get install -y libpng-dev && \
+        docker-php-ext-install pdo_mysql gd
 
 USER circleci
